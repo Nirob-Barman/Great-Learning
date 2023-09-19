@@ -23,7 +23,9 @@ public:
 int main()
 {
     Nirob Obj;
-    Obj.study();
-    Obj.play();
+
+    // Access and call both the "study" and "play" methods on the Nirob object.
+    Obj.study(); // Calls the "study" method from the base class (Student)
+    Obj.play();  // Calls the "play" method from the derived class (Nirob)
     return 0;
 }
